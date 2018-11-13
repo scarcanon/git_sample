@@ -4,6 +4,7 @@ int sum(int, int);
 
 int main()
 {
+    std::cout << "This is master" << std::endl;
     int a = 4; int b = 13;
     std::cout << sum(a, b) << std::endl;
     return 0;
